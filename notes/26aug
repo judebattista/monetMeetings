@@ -1,0 +1,122 @@
+Hadjer
+    Algerian
+    Lived in UAE
+    Undergrad in EE
+    MSc in CS
+    Research in ICS, binary analysis and ML for bin an
+    IoT devices and security
+    ML for security/nw/systems - Gang Wang
+    Adv security
+
+Zhe
+    4th year Phd student
+    TA - CS-498
+    Sensulet (?) project
+        Clean room sensors for EE dept
+    Scheduling research projects for cloud services and GPU ML inference
+    Happy to have zoom meetings with new students
+    Internship at Facebook
+        Worked on privacy
+        Anti-scraper tech, rate limiting
+     
+Qian ("Chen")
+    Thesis on IoT and network security
+    Also 360 video research
+    https://illinois.zoom.us/j/91819512309?pwd=dDNqSjU4Y2loUEtwNGY5dEhIN0FxZz09 
+COLLOQUIUM: Qian Zhou, "Managing Enterprise-Scale Internet of Things: from Service Discovery, Access Control, to Command Execution" 
+
+Ragini
+    BS/MS - Computer engineering
+    IoT focused
+    Interned at Los Alamos Lab - supercomputing center
+
+Beitong
+    Sensonet project - IoT project
+    Sensornet?
+    Same clean room project as Zhe
+    Classes: Wireless Networks, and ?? this semester
+    Rec:
+        Adversarial Machine Learning
+            Can take 498 to get up to speed
+            Research-based, consider CS-446 first   
+     CS 598 - Gang Wang for security
+
+Hessam - Postdoc
+    Phd in IoT networks, service discovery
+
+Ayush - first year masters student
+    Worked on integrating DNN in smart contract paradigm to create 
+        paradigm for... ?
+    Security and ML    
+
+Eric Lee - 
+    2nd year PhD student
+    ML, computer vision
+    360 video project
+    TA for Computational Photography
+    Internship with Visa
+        Reinforcement learning to predict which currencies to buy
+        Day-to-day predictions
+
+Xaioyung -
+    3rd year student
+    Working with microscopic images
+    Detect edges and shapes
+    
+Tianyuan -
+    Just finished 5th year of PhD
+    Privacy issues for UAVs
+    Good person to ask about security stuff!  
+
+Mingyuan - Remote from China
+    First year PhD student
+   
+Hongpeng - 
+    3rd year PhD student
+    Video streaming and analytics
+    Took CS-461
+    TA for advanced multimedia systems
+
+Bo Chen -
+    5th year PhD student
+    360 video, event detection
+
+Tarek El Gamel - not here  
+
+Jude
+    Coming out of undergrad
+    Math/CS
+    Researching security in SCADA netowrks
+        Atul
+    Park - Meadowbrook? Windsor?
+        Allerton? Otherton Park
+
+Look into ECE classes for:
+    ML, HW security, privacy
+
+Server:
+    Use UIUC VPN to connect to campus nw
+    ssh monet@130.126.136.154
+    pw monet
+    Create own account after logging in
+
+Older server
+    monet/monet
+    No remote access currently
+
+On campus cluster:
+    CSL has four nodes on the campus cluster
+    We can get an account to run larger scale computations
+    Karen Cromwell to request account
+     
+UIUC gitlab
+    Good place to store large data sets
+    
+Monet presentation
+    Tool: Zeek?
+    Paper: from top conference
+
+Start thinking about Quals
+    Talk to security lead
+     
+

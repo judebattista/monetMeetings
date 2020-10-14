@@ -1,0 +1,55 @@
+Followup on PIN issue
+
+Set up shared folder
+    Papers
+        Atuls
+        Gada
+    Notes
+        Meetings notes
+        Plans
+    Updates
+    Start building up powerpoint slides
+        Architecture of system
+        SImulated edge device
+        Information flow arch.
+            Flow b/w sensors sending GOOSE messages
+            Edge devices sending alerts
+            Cloud
+    Consider UI box
+        gitlab?
+            Sharabble with external customers
+        Build gitlab repo:
+            mcfly@illinois.edu
+            send link to:
+                Dr. Nahrstedt
+                Mr. Valdes
+                Mr. McFly
+     Customer (DoE) requires software and data artifacts
+        Include readme files
+        Sample datasets
+
+Tomorrow (13 Oct 1630): Atul's practice presentation 
+
+NREL Cloud
+    Documentation
+    Wiki
+    Talk to Mr. McFly
+
+Sharing between NREL's visualization tool and other services
+    ElasticStack
+        Including Kibana dashboard
+    Snort/Suricata/Zeek
+
+Consider information flow between detectors and NREL's visualization tool
+Meet with Dr. Narhstedt to design information flow architecture to present on 19 Oct.
+    Email Ms. Steidinger
+
+OPCUA
+    OPC foundation Uinfied Architecture
+    https://en.wikipedia.org/wiki/OPC_Unified_Architecture
+
+SIEM (Security Information and Event Management)
+    Look for open-source tools
+    See Mr. Valdez's email (SIEM in the Stone Age)
+
+

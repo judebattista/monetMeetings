@@ -1,0 +1,21 @@
+Presentation suggestion:
+    Adopt a professor's approach
+    Try to teach
+    Remember that the audience may not have read the paper
+    Those who have read the paper may not understand each concept
+
+Classifiying flows and buffer state for YouTube HTTP adaptive streaming service in mobile networks 
+    Need to go to IP level to monitor flows in the network
+    Classify video vs. non-video traffic
+    Encryption prevents reading the header
+    Has interesting recommendations for collecting data
+        At both IP and Application level
+        Consider application to GOOSE protocol
+   Recommend calculation of features out of IP data
+        Gives understanding of the shape of the traffic
+        Some similarities to EDMAND paper
+    How to derive higher order information
+        Which can help ID abnormalities
+
+Atul did Application layer analysis, so this may be a good way to make analysis more robust
+ 

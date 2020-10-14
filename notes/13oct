@@ -1,0 +1,54 @@
+Atul's presentation
+SUbstation Network Security
+Network-level systems help address key challenges
+    Resource-constrained end devices
+    Strict timing requirements
+Broader Goals
+    False data injection threat
+    Need near real time security analysis
+GOOSE lacks encryption and authentication
+Proposed bump-in-the-wire solution requires significant addiitonal hardware
+    small piece of hardware in front of every piece of hardware in the network
+    performs symmteric key encryption
+Other proposed solutions have unacceptable delay
+
+Threat Model:
+Adversary can monitor, insert, and corrupt GOOSE traffic
+
+GOOSE:
+    Exchange messages for the most time sensitive protocols
+    
+GOOSE format
+    Ethernet header: SrcMac, DstMsc
+    GOOSE Header: len
+    GOOSE ADPU:
+        StNum (st)
+        SqNum (sq)
+        TimeAllowedToLive (tal)
+        Data
+    Checksum
+
+Analysis done out of band
+
+Normal State and Staging State
+Normal State -
+    Points to last msg classed as normal
+Staging 
+    Messages awaiting class
+Complexity (time and space) base don staging state size → O(1)
+
+Implemented on top of Zeek
+    Used GOOSE analyzer proposed in literature
+    Implemented detection method as a policy script
+    Replayed a substation network dataset
+
+Throughput continues to scale linearly with incoming traffic speed
+    Indicates minimal impact from scanning
+
+How does response time improve on increasing compute resources?
+    2→4 cores ⇒ .10 → .6
+    4→6 cores, not significant
+    Given four cores, messages required less than 1% of most stringent GOOSE transmission time requirements
+
+abohara2@illinois.edu
+

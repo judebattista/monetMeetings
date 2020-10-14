@@ -1,0 +1,77 @@
+
+Lake of the Woods in Mahomet
+Ask questions!
+    Candice knows what's going on in the department
+
+Look into key management, bootstrapping?
+
+Three VMs
+    Source
+    Sniffer
+    Cloud
+
+Triangle Microworks distributed test manager?
+    Simulates SCADA communications
+    Produce GOOSE, DNP3 traffic
+https://www.trianglemicroworks.com/?gclid=Cj0KCQjwqfz6BRD8ARIsAIXQCf0VXh2LxYmMNBBuC0ydnw0_grYUsyKOZGrYpMeLsC0whh5zCux-uRcaAqODEALw_wcB 
+
+Look into IEC 61850 tools suite
+
+Start by using Atul's dataset
+
+Plan is to have remote access to NREL visualization suite
+
+Grafana has sophisticated query language
+    Can call up past alert data
+    Lots of Grafana expertise in MONET
+
+Visualization has its own research area
+
+NREL system already has the elastic stack
+    Own query system
+
+Beitong works with Grafana/InfluxDB
+    There is... another. Who?
+
+Need to start considering visualization techniques for alerts
+
+Shane and Al have visited control centers
+    Visualization is still pretty young
+        Static lights on wall
+            rudimentary
+        Massive data stream
+            undifferentiated and overwhelming
+    System visualization, not security visualization
+    Topology map of system
+        Can click on a given bus to find out what's going on there
+        yellow/red lights to indicate when a system is out of norms
+   
+Nobody seems to know what the operators need
+
+**************************** 
+Next presentation: 
+    Atul's tool
+        Input
+        Output - most important aspect
+****************************
+
+Arcsight - acquired by HP
+    NERC - North American Electrical Reliability 
+        Standards the bulk power infra has to adhere to
+        Includes security log management
+            Arcsight commercially successful here.
+
+Ameran
+    What are they using for logs?
+    Pete has a student who might now. Al will email
+    We should understand current industry standard solutions
+        How is ours different?
+
+In other arenas (multimedia, clean rooms) there are standards around visualizations
+    meta data
+    clean room: presence of cameras must be announced
+        "You are on camera"
+    
+Understand alerts
+    Rank them
+

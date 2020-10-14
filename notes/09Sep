@@ -1,0 +1,17 @@
+Mone=t website needs updating
+    May need to request access to the website
+    Look for email from Bo
+
+3113 needs to be organized to make space for the new folks
+
+Ayush:
+Clouder: Data management system around MongoDB
+
+Group Access Control
+    Interactions between spaces and groups now functional
+        Groups can be added to Spaces and removed as a unit
+    Groups can also be integrated into Spaces with given permissions
+    Group data structure keeps track of each individual user's permissions with respect to each space - allows permission flexibility.
+
+Similar to Manage Users, there is now Manage Groups
+
